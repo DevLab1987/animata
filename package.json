@@ -2,7 +2,6 @@
   "name": "animata",
   "version": "1.0.0",
   "description": "Library of reusable CSS animations",
-  "main": "index.js",
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
     "build-autoprefix": "postcss --use autoprefixer --map false --output css/animata.css css/animata.css",
