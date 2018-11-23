@@ -48,6 +48,26 @@
   }
 }
 
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  to {
+    tranform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  to {
+    tranform: translateX(0);
+  }
+}
+
 @-webkit-keyframes iconBulge {
   0% {
     font-size: 0px;
