@@ -17,4 +17,28 @@
     tranform: translateX(0);
   }
 }
+
+@-webkit-keyframes iconBulge {
+  0% {
+    font-size: 0px;
+  }
+  60% {
+    font-size: 125%;
+  }
+  100% {
+    font-size: inherit;
+  }
+}
+
+@keyframes iconBulge {
+  0% {
+    font-size: 0px;
+  }
+  60% {
+    font-size: 125%;
+  }
+  100% {
+    font-size: inherit;
+  }
+}
 /*# sourceMappingURL=animata.css.map */
