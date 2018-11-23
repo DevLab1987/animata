@@ -1,0 +1,29 @@
+{
+  "name": "animata",
+  "version": "1.0.0",
+  "description": "Library of reusable CSS animations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevLab1987/animata.git"
+  },
+  "keywords": [
+    "css",
+    "animation",
+    "scss",
+    "animata"
+  ],
+  "author": "Josh Hicks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevLab1987/animata/issues"
+  },
+  "homepage": "https://github.com/DevLab1987/animata#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.3.1"
+  }
+}
