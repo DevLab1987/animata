@@ -1,10 +1,10 @@
-# animata
+# ANIMATA
 
 Library of reusable CSS animations
 
 ## Getting Started
 
-Animata is growing all the time, so keep an eye out for changes.
+Animata is a library of reusable [CSS Keyframe](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) animations to make easy to add animations to your project. Animata is growing all the time, so keep an eye out for changes.
 
 ### NPM
 
@@ -14,8 +14,10 @@ npm install animata
 
 ### Import
 
+- In your `index.html` file
+
 ```sh
-import 'animata/css/animata.min.css'
+<link rel="stylesheet" type="text/css" href="your/animata/path/animata.min.css />
 ```
 
 ### Contributing
