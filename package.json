@@ -4,7 +4,13 @@
   "description": "Library of reusable CSS animations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/animata.css css/animata.css",
+    "build-cleancss": "cleancss -o css/animata.min.css css/animata.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true scss/animata.scss css/animata.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch"
   },
   "repository": {
     "type": "git",
@@ -24,6 +30,10 @@
   "homepage": "https://github.com/DevLab1987/animata#readme",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^9.3.1"
+    "autoprefixer": "^9.3.1",
+    "clean-css-cli": "^4.2.1",
+    "node-sass": "^4.10.0",
+    "postcss-cli": "^6.0.1",
+    "rimraf": "^2.6.2"
   }
 }
