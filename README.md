@@ -16,8 +16,18 @@ npm install animata
 
 - In your `index.html` file
 
-```sh
-<link rel="stylesheet" type="text/css" href="your/animata/path/animata.min.css />
+```html
+<link rel="stylesheet" type="text/css" href="your/animata/path/animata.min.css/>
+```
+
+### Example Usage
+
+- Add any of the animations to your own elements
+
+```css
+.my-div {
+  animation: spinRight 5s infinite linear;
+}
 ```
 
 ### Contributing
