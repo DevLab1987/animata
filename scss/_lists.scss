@@ -1,8 +1,17 @@
 @keyframes slideInRight {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        tranform: translateX(0);
-    }
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    tranform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    tranform: translateX(0);
+  }
 }
