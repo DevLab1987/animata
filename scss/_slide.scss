@@ -1,0 +1,43 @@
+@keyframes slideInRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    tranform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    tranform: translateX(0);
+  }
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+    overflow-y: hidden;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+    overflow-y: intital;
+  }
+}
+
+@keyframes slideDownFadeIn {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+    overflow-y: hidden;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 1;
+    overflow-y: intital;
+  }
+}

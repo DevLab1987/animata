@@ -25,21 +25,3 @@
     transform: rotate(-360deg);
   }
 }
-
-@keyframes zoomIn {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-@keyframes zoomOut {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(0);
-  }
-}
