@@ -1,3 +1,349 @@
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    overflow-x: hidden;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    overflow-x: hidden;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+  }
+}
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    overflow-x: hidden;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    overflow-x: hidden;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+  }
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: intital;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: intital;
+  }
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: intital;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: intital;
+  }
+}
+
+@-webkit-keyframes slideOutRightFadeOut {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    overflow-x: initial;
+    opacity: 0;
+  }
+}
+
+@keyframes slideOutRightFadeOut {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    overflow-x: initial;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideOutLeftFadeOut {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    overflow-x: initial;
+    opacity: 0;
+  }
+}
+
+@keyframes slideOutLeftFadeOut {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    overflow-x: initial;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideOutUpFadeOut {
+  from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    overflow-y: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: intital;
+    opacity: 0;
+  }
+}
+
+@keyframes slideOutUpFadeOut {
+  from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    overflow-y: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: intital;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideOutDownFadeOut {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    overflow-y: intital;
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes slideOutDownFadeOut {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    overflow-y: hidden;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    overflow-y: intital;
+    opacity: 0;
+    display: none;
+  }
+}
+
+@-webkit-keyframes slideInRightFadeIn {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    overflow-x: hidden;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRightFadeIn {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    overflow-x: hidden;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideInLeftFadeIn {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    overflow-x: hidden;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeftFadeIn {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    overflow-x: hidden;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    overflow-x: initial;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideInUpFadeIn {
+  from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+    overflow-y: intital;
+  }
+}
+
+@keyframes slideInUpFadeIn {
+  from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+    overflow-y: intital;
+  }
+}
+
+@-webkit-keyframes slideInDownFadeIn {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+    overflow-y: intital;
+  }
+}
+
+@keyframes slideInDownFadeIn {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+    overflow-y: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+    overflow-y: intital;
+  }
+}
+
 @-webkit-keyframes spinRight {
   0% {
     -webkit-transform: rotate(0deg);
@@ -102,46 +448,6 @@
   }
 }
 
-@-webkit-keyframes slideInRight {
-  from {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
-  to {
-    tranform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
-  to {
-    tranform: translateX(0);
-  }
-}
-
-@-webkit-keyframes slideInLeft {
-  from {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-  }
-  to {
-    tranform: translateX(0);
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-  }
-  to {
-    tranform: translateX(0);
-  }
-}
-
 @-webkit-keyframes iconBulge {
   0% {
     font-size: 0px;
@@ -163,6 +469,42 @@
   }
   100% {
     font-size: inherit;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 /*# sourceMappingURL=animata.css.map */
