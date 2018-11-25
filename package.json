@@ -1,6 +1,6 @@
 {
   "name": "animata",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Library of reusable CSS animations",
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",

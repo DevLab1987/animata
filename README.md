@@ -22,7 +22,9 @@ npm install animata
 
 ### Example Usage
 
-- Add any of the animations to your own elements
+**You can find all the animations in the source code `*.scss` files**
+
+- Add one of the animations to your element
 
 ```css
 .my-div {
